@@ -1,0 +1,43 @@
+{
+  "name": "react-dock-manager-overview",
+  "description": "This project provides example of Dock Manager Overview using Infragistics React components",
+  "author": "Infragistics",
+  "homepage": "http://igjp-sample.github.io/react-dock-manager-overview",
+  "version": "1.4.0",
+  "private": true,
+  "scripts": {
+    "start": "set PORT=4200 && react-scripts --max_old_space_size=10240 start",
+    "build": "react-scripts --max_old_space_size=10240 build ",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "igniteui-dockmanager": "1.1.0",
+    "igniteui-react-core": "16.13.0",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-scripts": "3.4.1",
+    "tslib": "1.10.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.11.8",
+    "@types/react": "^16.8.20",
+    "@types/react-dom": "^16.8.3",
+    "gh-pages": "^3.1.0",
+    "react-app-rewired": "^1.6.2",
+    "typescript": "~3.7.2",
+    "worker-loader": "^2.0.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
